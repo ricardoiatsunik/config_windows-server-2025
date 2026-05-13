@@ -1,0 +1,16 @@
+# VMware virtual machines
+*.vmem
+*.vmdk
+*.vmsn
+*.vmss
+*.nvram
+*.lck/
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
