@@ -11,10 +11,8 @@ A ideia deste laboratório é simular um ambiente de servidor em máquina virtua
 | Item | Descrição |
 |---|---|
 | Virtualizador | VMware Workstation Pro |
-| Sistema operacional convidado | Windows Server 2025 |
-| Tipo de instalação | Desktop Experience |
+| Sistema operacional | Windows Server 2025 |
 | Mídia de instalação | ISO oficial do Windows Server 2025 |
-| Finalidade | Laboratório local |
 
 ---
 
