@@ -2,7 +2,7 @@
 
 Este repositório documenta a criação e configuração inicial de uma máquina virtual com **Windows Server 2025** utilizando o **VMware Workstation Pro**.
 
-A ideia deste laboratório é simular um ambiente de servidor em máquina virtual, deixando a instalação pronta para estudos posteriores de administração de sistemas, redes, Active Directory, DNS, DHCP, GPOs e hardening básico.
+A ideia deste laboratório é simular um ambiente de servidor em máquina virtual, deixando a instalação pronta para estudos posteriores de administração de sistemas, redes, Active Directory, DNS, DHCP, GPOs e hardening.
 
 ---
 
