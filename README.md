@@ -6,14 +6,6 @@ A ideia deste laboratório é simular um ambiente de servidor em máquina virtua
 
 ---
 
-## Objetivo do laboratório
-
-Criar uma máquina virtual com Windows Server 2025 no VMware Workstation Pro, realizando desde a criação da VM até as configurações iniciais do sistema operacional.
-
-Ao final do laboratório, a máquina virtual estará instalada, atualizada, com VMware Tools instalado, nome de host definido, configuração de rede validada e snapshot criado.
-
----
-
 ## Ambiente utilizado
 
 | Item | Descrição |
@@ -26,7 +18,7 @@ Ao final do laboratório, a máquina virtual estará instalada, atualizada, com 
 
 ---
 
-## Estrutura do repositório
+## Estrutura
 
 ```text
 configurando-windows-server-2025-com-vmware/
