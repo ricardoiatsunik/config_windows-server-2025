@@ -311,40 +311,12 @@ No VMware Workstation Pro, clique em:
 VM > Snapshot > Take Snapshot
 ```
 
-Nome sugerido:
-
-```text
-Instalacao-limpa-Windows-Server-2025
-```
-
-Descrição sugerida:
-
-```text
-Windows Server 2025 instalado, VMware Tools configurado, rede validada e sistema atualizado.
-```
-
 Esse snapshot permite retornar ao estado inicial caso algum teste futuro quebre o ambiente.
 
 
 
 ---
 
-# Validação Final
-
-Ao final do laboratório, valide os seguintes pontos:
-
-- [ ] A VM inicializa corretamente
-- [ ] O Windows Server 2025 foi instalado com Desktop Experience
-- [ ] A senha do Administrator foi definida
-- [ ] O VMware Tools foi instalado
-- [ ] O nome do servidor foi alterado
-- [ ] A VM possui endereço IP
-- [ ] A VM acessa a internet
-- [ ] A resolução DNS funciona
-- [ ] O Windows Update foi executado
-- [ ] O snapshot inicial foi criado
-
----
 
 # Resultado
 
