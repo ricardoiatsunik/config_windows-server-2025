@@ -64,12 +64,6 @@ Exemplo:
 C:\ISOs\Windows_Server_2025.iso
 ```
 
-Adicione aqui o print do download ou da ISO salva:
-
-```md
-![ISO do Windows Server 2025](assets/prints/01-iso-windows-server-2025.png)
-```
-
 ---
 
 # Segundo Passo
@@ -98,11 +92,6 @@ Microsoft Windows Server 2022 (64-bit)
 
 Isso não impede a instalação do Windows Server 2025 no laboratório.
 
-Adicione aqui o print da criação da VM:
-
-```md
-![Criação da VM](assets/prints/02-criacao-vm.png)
-```
 
 ---
 
@@ -124,11 +113,6 @@ Para um laboratório com interface gráfica, utilize uma configuração confort�
 
 Configuração mínima demais pode deixar a instalação lenta ou até falhar em alguns cenários. Para uso com interface gráfica, 4 GB de RAM é uma escolha mais adequada.
 
-Adicione aqui o print dos recursos definidos:
-
-```md
-![Recursos da VM](assets/prints/03-recursos-vm.png)
-```
 
 ---
 
@@ -161,11 +145,6 @@ Indicado para:
 
 Para este laboratório, NAT é suficiente no primeiro momento.
 
-Adicione aqui o print da configuração de rede:
-
-```md
-![Configuração de rede](assets/prints/04-configuracao-rede.png)
-```
 
 ---
 
@@ -191,18 +170,6 @@ Custom: Install Microsoft Server Operating System only
 
 Selecione o disco virtual criado anteriormente e prossiga com a instalação.
 
-Adicione aqui o print da seleção da edição:
-
-```md
-![Seleção da edição](assets/prints/05-selecao-edicao.png)
-```
-
-Adicione aqui o print da tela de instalação:
-
-```md
-![Instalação em andamento](assets/prints/06-instalacao-andamento.png)
-```
-
 ---
 
 # Sexto Passo
@@ -225,11 +192,6 @@ Exemplo de critérios:
 - Caracteres especiais
 - Não utilizar senhas óbvias ou reutilizadas
 
-Adicione aqui o print da tela inicial após login:
-
-```md
-![Primeiro login](assets/prints/07-primeiro-login.png)
-```
 
 ---
 
@@ -256,11 +218,6 @@ O VMware Tools melhora a integração entre o host e a VM, incluindo:
 
 Após instalar, reinicie a máquina virtual.
 
-Adicione aqui o print da instalação do VMware Tools:
-
-```md
-![Instalação VMware Tools](assets/prints/08-vmware-tools.png)
-```
 
 ---
 
@@ -296,11 +253,6 @@ Após a reinicialização, valide o nome da máquina:
 hostname
 ```
 
-Adicione aqui o print do nome do servidor:
-
-```md
-![Nome do servidor](assets/prints/09-nome-servidor.png)
-```
 
 ---
 
@@ -358,11 +310,7 @@ Get-HotFix
 
 Manter o servidor atualizado é importante antes de instalar funções como Active Directory, DNS, DHCP ou serviços de aplicação.
 
-Adicione aqui o print do Windows Update:
 
-```md
-![Windows Update](assets/prints/11-windows-update.png)
-```
 
 ---
 
@@ -392,11 +340,7 @@ Windows Server 2025 instalado, VMware Tools configurado, rede validada e sistema
 
 Esse snapshot permite retornar ao estado inicial caso algum teste futuro quebre o ambiente.
 
-Adicione aqui o print do snapshot:
 
-```md
-![Snapshot inicial](assets/prints/12-snapshot-inicial.png)
-```
 
 ---
 
@@ -414,30 +358,6 @@ Ao final do laboratório, valide os seguintes pontos:
 - [ ] A resolução DNS funciona
 - [ ] O Windows Update foi executado
 - [ ] O snapshot inicial foi criado
-
----
-
-# Possíveis problemas
-
-## A VM não inicia pela ISO
-
-Verifique se a ISO está conectada no drive virtual e se a ordem de boot está correta.
-
-## A instalação está muito lenta
-
-Aumente a memória RAM e a quantidade de núcleos da VM, se o host permitir.
-
-## A VM não tem internet
-
-Verifique se o adaptador de rede está conectado e se o modo NAT ou Bridged foi configurado corretamente.
-
-## A tela fica pequena ou travada
-
-Instale ou reinstale o VMware Tools.
-
-## O Windows Server não reconhece a opção 2025 no VMware
-
-Utilize a opção Windows Server 2022 64-bit durante a criação da VM. A instalação do Windows Server 2025 ainda pode ser feita pela ISO.
 
 ---
 
