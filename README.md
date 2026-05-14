@@ -282,11 +282,6 @@ nslookup microsoft.com
 
 Se o ping por IP funcionar, mas o nslookup falhar, o problema provavelmente está relacionado à configuração de DNS.
 
-Adicione aqui o print dos testes de rede:
-
-```md
-![Teste de rede](assets/prints/10-teste-rede.png)
-```
 
 ---
 
